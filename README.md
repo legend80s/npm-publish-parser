@@ -87,7 +87,7 @@ Generate well formed json structure:
         "unpackedSize": "44.8 kB",
         "shasum": "29908db791e1234572dfde0171e128b0528d846b",
         "integrity": "sha512-d+HQGn+dgTvez[...]uvwxJZElZy30A==",
-        "totalFiles": "5"
+        "totalFiles": 5
     }
 }
 ```
