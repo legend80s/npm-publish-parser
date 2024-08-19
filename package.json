@@ -1,0 +1,38 @@
+{
+  "name": "npm-publish-parser",
+  "version": "0.0.0",
+  "description": "Parse the output of `npm publish --dry-run` into JSON",
+  "keywords": [
+    "npm",
+    "publish",
+    "dry-run",
+    "json"
+  ],
+  "author": "legend80s",
+  "type": "module",
+  "files": [
+    "lib/index.mjs",
+    "lib/lite-lodash.mjs",
+    "index.mjs"
+  ],
+  "bin": {
+    "npm-publish-json": "index.mjs"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/legend80s/npm-publish-json.git"
+  },
+  "bugs": {
+    "url": "https://github.com/legend80s/npm-publish-json/issues"
+  },
+  "homepage": "https://github.com/legend80s/npm-publish-json#readme",
+  "main": "index.mjs",
+  "scripts": {
+    "cov": "node --test --experimental-test-coverage",
+    "test": "node --test"
+  },
+  "license": "MIT"
+}

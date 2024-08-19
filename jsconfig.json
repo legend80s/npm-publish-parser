@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "Node16",
+    "lib": ["ES2015"],
+    "strict": true,
+    "checkJs": true
+  }
+}
