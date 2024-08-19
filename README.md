@@ -17,8 +17,6 @@
 </p>
 
 > Parse the output of `npm publish --dry-run` into JSON.
->
-> 将 `npm output` 输出的内容装换成结构化的 JSON 格式。
 
 ## Example
 
@@ -53,7 +51,7 @@ npm notice total files: 11
 const json = toJSON(npmPublishOutput);
 ```
 
-Generate well formed json structure:
+Parsed into well formed JSON structure:
 
 ```json
 {

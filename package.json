@@ -18,6 +18,16 @@
   "bin": {
     "npm-publish-json": "index.mjs"
   },
+  "main": "index.mjs",
+  "scripts": {
+    "pub:patch": "npm version patch",
+    "pub:minor": "npm version minor",
+    "pub:major": "npm version major",
+    "preversion": "npm run cov",
+    "postversion": "npm publish && git push && git push --tags",
+    "cov": "node --test --experimental-test-coverage",
+    "test": "node --test"
+  },
   "engines": {
     "node": ">=16"
   },
@@ -29,10 +39,5 @@
     "url": "https://github.com/legend80s/npm-publish-json/issues"
   },
   "homepage": "https://github.com/legend80s/npm-publish-json#readme",
-  "main": "index.mjs",
-  "scripts": {
-    "cov": "node --test --experimental-test-coverage",
-    "test": "node --test"
-  },
   "license": "MIT"
 }
