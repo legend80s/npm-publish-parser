@@ -11,7 +11,7 @@ interface ITarballDetails {
   unpackedSize: string;
   shasum: string;
   integrity: string;
-  totalFiles: string;
+  totalFiles: number;
 }
 
 interface ITarballContent {
