@@ -13,8 +13,10 @@
   "files": [
     "lib/index.mjs",
     "lib/lite-lodash.mjs",
+    "index.d.ts",
     "index.mjs"
   ],
+  "types": "index.d.ts",
   "bin": {
     "npm-publish-json": "index.mjs"
   },
