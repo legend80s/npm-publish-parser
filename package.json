@@ -17,9 +17,6 @@
     "index.mjs"
   ],
   "types": "index.d.ts",
-  "bin": {
-    "npm-publish-json": "index.mjs"
-  },
   "main": "index.mjs",
   "scripts": {
     "pub:patch": "npm version patch",
@@ -35,11 +32,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/legend80s/npm-publish-json.git"
+    "url": "git+https://github.com/legend80s/npm-publish-parser.git"
   },
   "bugs": {
-    "url": "https://github.com/legend80s/npm-publish-json/issues"
+    "url": "https://github.com/legend80s/npm-publish-parser/issues"
   },
-  "homepage": "https://github.com/legend80s/npm-publish-json#readme",
+  "homepage": "https://github.com/legend80s/npm-publish-parser#readme",
   "license": "MIT"
 }
